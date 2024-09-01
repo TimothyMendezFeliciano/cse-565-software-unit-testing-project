@@ -16,13 +16,14 @@ const generateSeedData = (size: number): Array<number> => {
 // Usage
 const seedData = generateSeedData(10);
 const seedPath = path.join(__dirname,
-    '__tests__',
+    '..',
+    'seed',
     'seedData.ts'
 )
 
 writeFile(
     seedPath,
-    `export const seedData: number[] = ${seedData};`,
+    `export const seedData: number[] = [${seedData}];`,
     err => {
         console.error(err?.message)
     }
