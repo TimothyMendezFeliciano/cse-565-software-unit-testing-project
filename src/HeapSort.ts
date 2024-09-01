@@ -12,6 +12,7 @@ class HeapSort {
             this.heapify(arr, j, 0);
             j--;
         }
+        return arr;
     }
 
     private heapify(arr: Array<number>, size: number, i: number): void {
