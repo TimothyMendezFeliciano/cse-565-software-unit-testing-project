@@ -1,4 +1,4 @@
-class HeapSort {
+export class HeapSort {
     public sort(arr: Array<number>) {
         const size = arr.length;
         for (let i = Math.floor(size / 2) - 1; i >= 0; i--) {

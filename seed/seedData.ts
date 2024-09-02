@@ -1,1 +1,1 @@
-export const seedData: number[] = [94,36,34,25,58,85,95,96,8,29];
+export const seedData: number[] = [51,69,97,86,83,91,49,19,24,33];
